@@ -57,6 +57,7 @@ header img {
   z-index: 1;
   height: 125px;
   padding: 0 3rem;
+  display: flex;
 }
 
 .banner {
@@ -88,14 +89,15 @@ header img {
   grid-row: 1;
   z-index: 1;
   position: absolute;
-  left: 5%;
-  bottom: 32%;
+  left: 8%;
+  bottom: 25%;
 }
 
 .banner-content h1 {
   font-size: 5.75rem;
   color: #80ce2d;
   text-shadow: 1px 1px 4px #000;
+  margin: 0;
 }
 
 .banner-content p {
@@ -105,8 +107,25 @@ header img {
   text-shadow: 1px 1px 2px #000;
 }
 
+.banner-content-s {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-content-s h1 {
+  font-size: 5.75rem;
+  color: #80ce2d;
+  text-shadow: 1px 1px 4px #000;
+  margin: 0;
+}
+
 .btn {
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 .banner-content a {
@@ -167,8 +186,8 @@ main {
 }
 
 .btn a {
-  background-color: #80ce2d;
-  border: none;
+  background-color: #388505;
+  border: 2px solid #80ce2d;
   color: white;
   text-shadow: 1px 1px 2px #000;
   padding: 10px 27px;
@@ -178,6 +197,7 @@ main {
   font-size: 1.25rem;
   font-weight: bold;
   border-radius: 3px;
+  margin-bottom: 3rem;
 }
 
 .btn a:hover {
