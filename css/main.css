@@ -51,7 +51,7 @@ header img {
 
 .nav-home {
   background-color: white;
-  grid-column: 1 / -1;
+  grid-column: 1 / span 3;
   grid-row: 1 / -1;
   z-index: 1;
   height: 125px;
@@ -147,7 +147,6 @@ nav ul {
   display: flex;
   margin: 0;
   padding-top: 2.75rem;
-  padding-left: 0;
 }
 
 nav li {
@@ -241,9 +240,10 @@ main {
 
 footer {
   grid-column: 1 / span 3;
-  background-color: #80ce2d;
+  background-color: #388505;
   margin: 5rem 0 0;
   padding: 2rem 0;
+  color: #fff;
 }
 
 footer p {
