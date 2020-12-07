@@ -5,6 +5,7 @@
   <title>Pat Boileau RMT|Booking</title>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
@@ -38,70 +39,59 @@
   <main>
     <div class="booking-form">
       <form method="POST" action="https://formspree.io/">
-          <div class="push">
+          <div >
             <label for="name">Name</label>
             <input id="name" required>
           </div>
-          <div class="push">
-            <label for="email">Your email</label>
+          <div>
+            <label>Your email</label>
             <input id="email" type="email" placeholder="example.name@email.com" name="email" aria-label="Input email address here" required>
           </div>
-          <div class="push">
+          <div>
             <label for="username">Username</label>
             <input id="username" required>
           </div>
-          <div class="push">
+          <div>
             <label for="password">Password</label>
             <input id="password" required>
           </div>
-          <div class="push">
+          <div>
             <label for="confirm">*Confirm Password</label>
             <input id="confirm" required>
           </div>
 
-          <div class="grid grid-middle text-center pad-t">
-            <div class="unit xs-1 s-1 m-1 l-1">
-
-              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4 push-1-2">
-                <button type="submit" class="btn link-box text-center" aria-label="Submit your form here">Submit!</button>
+              <div class="btn">
+                <button type="submit" class="btn" aria-label="Submit your form here">Submit!</button>
               </div>
-
-              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
-                <section class="btn">
-                  <a class="link-box text-center" aria-label="Go to product features page" href="tour.html">See Features</a>
-                </section>
-              </div>
-
-            </div>
-          </div>
 
         </form>
+      </div>
 
 
 
-  <footer role="contentinfo">
+        <footer class="footer" role="contentinfo">
 
-    <div class="social">
-      <ul>
-        <li>
-          <i class="icon embed i-32">
-            <img class="icon embed-item" src="images/facebook.svg" alt="facebook">
-          </i>
-        </li>
-        <li>
-          <i class="icon embed i-32">
-            <img class="icon embed-item" src="images/instagram.svg" alt="instagram">
-          </i>
-        </li>
-      </ul>
-    </div
+          <div class="social">
+            <ul>
+              <li>
+                <i class="icon">
+                  <img class="icon embed-item" src="images/facebook.svg" alt="facebook">
+                </i>
+              </li>
+              <li>
+                <i class="icon">
+                  <img class="icon embed-item" src="images/instagram.svg" alt="instagram">
+                </i>
+              </li>
+            </ul>
+          </div
 
-    <div>
-      <small">© Pat Boileau.</small>
-    </div>
+          <div>
+            <p><small>© Pat Boileau.</small></p>
+          </div>
 
 
-</footer>
+      </footer>
 
 
 </body>
