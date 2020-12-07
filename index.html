@@ -3,18 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>Pat Boileau RMT</title>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
   <header role="banner">
 
     <div class="nav-home"
-
-      <div class="logo">
-        <img></img>
-        <h1>Pat Boileau Massage Therapy & Athletic Training</h1>
+      <div class="logo" aria-label="Pat Boileau Logo">
+        <a href="index.html">
+          <i class="icon">
+            <svg><use xlink:href="images/icon-sets-sheet.svg#pb-horizontal"</use></svg>
+          </i>
+        </a>
       </div>
 
       <nav role="navigation">
@@ -26,21 +29,16 @@
       </nav>
     </div>
 
-    <div class="banner-home">
-      <div class="relative">
-        <img class="img-flex" src="images/banner-home.jpg" alt="massage-img">
-      </div>
+      <img class="img-banner" src="images/banner-img.jpg" alt="workout background image">
 
-      <div>
+      <div class="banner-content">
         <h1>Know Pain, Know Gain.</h1>
         <p>Understanding your body is step one. Healing it is step two.</p>
         <p>Giving you the tools you need to protect your body.</p>
+        <div class="btn">
+          <a href="booking.html">Book Now</a>
+        </div>
       </div>
-
-      <div class="btn">
-        <a href="booking.html">Book Now</a>
-      </div>
-    </div>
   </header>
 
   <main class="main">
@@ -54,67 +52,72 @@
 
       <p>I graduated from Health and Fitness Promotion at College Boreal, giving me the ability to obtain professional certification in personal training. After one year working in the field, I decided to go back to school to obtain a registration in massage therapy (RMT), which would not only help me understand the human body at a deeper level, but to also allow me to provide an additional service to current and future clients.
 
-      <p>With both of these certifications, I am extremely knowledgeable of the needs, imbalances and weaknesses a client may have in their body. I am able to understand how to correct problem areas in a client’s body, while also educating them to increase awareness of their own body with the ultimate goal of decreasing future risk of injury. I look forward to helping you on your road to recovery and being a trustworthy resource to keeping your body healthy!
+      <p>With both of these certifications, I am extremely knowledgeable of the needs, imbalances and weaknesses a client may have in their body. I am able to understand how to correct problem areas in a client’s body, while also educating them to increase awareness of their own body with the ultimate goal of decreasing future risk of injury. I look forward to helping you on your road to recovery and being a trustworthy resource to keeping your body healthy!</p>
 
-      <small>- Pat Boileau, RMT</small>
+      <p>- Pat Boileau, RMT</p>
     </article>
 
-    <section>
+    <section class="resume">
 
-      <h2>CERTIFICATIONS</h2>
-      <p>Pat is certified in the following:</p>
-      <ul>
-        <li>Registered Massage Therapy</li>
-        <li>Ontario Fitness council - personal trainer</li>
-        <li>Functional Movement Screen L1</li>
-        <li>RockTape FMT Basic & Performance</li>
-        <li>Physical literacy – High Five</li>
-        <li>Certification for training ear impairment</li>
-        <li>Certification for training elderly adults</li>
-        <li>Group fitness instructor</li>
-      </ul>
-
-      <h2>PROFESSIONAL EXPERIENCES</h2>
-      <p>Strength and Conditioning Coach with:</p>
-      <ul>
-        <li>Chill Volleyball</li>
-        <li>College Boreal</li>
-        <li>CanAm Strength & Conditioning - 1855 Athletics</li>
-      </ul>
-
-      <h2>ATHLETIC RESUME</h2>
-      <p>Volleyball 2009-2015</p>
-      <ul>
-        <li>2013 East Canada Cup with Griffon</li>
-        <li>2012 Silver Finish at OVA</li>
-        <li>2011 Jeux de La Francophonie Canadienne</li>
-      </ul>
-
-      <p>Weightlifting</p>
-      <ul>
-        <li>2020 WinterLift</li>
-        <li>2019 Provincials</li>
-      </ul>
-
-      <div class="btn">
-        <a href="booking.html">Book Now</a>
+      <div class="cert">
+        <h2>CERTIFICATIONS</h2>
+        <p>Pat is certified in the following:</p>
+        <ul>
+          <li>Registered Massage Therapy</li>
+          <li>Ontario Fitness council - personal trainer</li>
+          <li>Functional Movement Screen L1</li>
+          <li>RockTape FMT Basic & Performance</li>
+          <li>Physical literacy – High Five</li>
+          <li>Certification for training ear impairment</li>
+          <li>Certification for training elderly adults</li>
+          <li>Group fitness instructor</li>
+        </ul>
       </div>
 
+      <div class="prof">
+        <h2>PROFESSIONAL EXPERIENCES</h2>
+        <p>Strength and Conditioning Coach with:</p>
+        <ul>
+          <li>Chill Volleyball</li>
+          <li>College Boreal</li>
+          <li>CanAm Strength & Conditioning - 1855 Athletics</li>
+        </ul>
+      </div>
+
+      <div class="athl">
+        <h2>ATHLETIC RESUME</h2>
+        <p>Volleyball 2009-2015</p>
+        <ul>
+          <li>2013 East Canada Cup with Griffon</li>
+          <li>2012 Silver Finish at OVA</li>
+          <li>2011 Jeux de La Francophonie Canadienne</li>
+        </ul>
+
+        <p>Weightlifting</p>
+        <ul>
+          <li>2020 WinterLift</li>
+          <li>2019 Provincials</li>
+        </ul>
+      </div>
     </section>
+
+    <div class="btn">
+      <a href="booking.html">Book Now</a>
+    </div>
 
   </main>
 
-  <footer role="contentinfo">
+  <footer class="footer" role="contentinfo">
 
     <div class="social">
       <ul>
         <li>
-          <i class="icon embed i-32">
-            <img class="icon embed-item" src="images/facebook-1.svg" alt="facebook">
+          <i class="icon">
+            <img class="icon embed-item" src="images/facebook.svg" alt="facebook">
           </i>
         </li>
         <li>
-          <i class="icon embed i-32">
+          <i class="icon">
             <img class="icon embed-item" src="images/instagram.svg" alt="instagram">
           </i>
         </li>
@@ -122,7 +125,7 @@
     </div
 
     <div>
-      <small">© Pat Boileau.</small>
+      <p><small>© Pat Boileau.</small></p>
     </div>
 
 
