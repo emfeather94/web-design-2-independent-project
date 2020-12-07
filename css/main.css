@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Ubuntu, sans-serif;
   margin: 0;
   line-height: 1.5;
   -moz-text-size-adjust: 100%;
@@ -19,7 +19,7 @@ img {
 
 h1,
 h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   margin: 0;
   text-transform: uppercase;
 }
@@ -56,7 +56,7 @@ header img {
   grid-row: 1 / -1;
   z-index: 1;
   height: 125px;
-  padding: 0 4rem;
+  padding: 0 3rem;
 }
 
 .banner {
@@ -89,17 +89,17 @@ header img {
   z-index: 1;
   position: absolute;
   left: 5%;
-  bottom: 40%;
+  bottom: 32%;
 }
 
 .banner-content h1 {
-  font-size: 5rem;
-  color: #80CE2D;
+  font-size: 5.75rem;
+  color: #80ce2d;
   text-shadow: 1px 1px 4px #000;
 }
 
 .banner-content p {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: .5;
   color: #fff;
   text-shadow: 1px 1px 2px #000;
@@ -110,7 +110,7 @@ header img {
 }
 
 .banner-content a {
-  background-color: #80CE2D;
+  background-color: #80ce2d;
   border: none;
   color: white;
   text-shadow: 1px 1px 2px #000;
@@ -122,7 +122,7 @@ header img {
 }
 
 .banner-content a:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 
 nav ul {
@@ -143,11 +143,12 @@ nav a {
   font-size: 0.75rem;
   color: #000;
   font-weight: bold;
+  padding: .25rem .5rem;
 }
 
 nav a:hover {
-  color: #80CE2D;
-  border: 2px solid #80CE2D;
+  color: #80ce2d;
+  border: 2px solid #80ce2d;
   padding: .25rem .5rem;
 }
 
@@ -163,11 +164,10 @@ main {
   display: grid;
   grid-column: 2;
   grid-row: 2;
-  margin-top: 5rem;
 }
 
 .btn a {
-  background-color: #80CE2D;
+  background-color: #80ce2d;
   border: none;
   color: white;
   text-shadow: 1px 1px 2px #000;
@@ -183,7 +183,7 @@ main {
 .btn a:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   background-color: #000;
-  color: #80CE2D;
+  color: #80ce2d;
   text-shadow: none;
 }
 
@@ -210,20 +210,20 @@ main {
 }
 
 .resume .prof {
-  padding: 0 2rem 0 0;
+  padding: 0 1.25rem;
 }
 
 .resume .athl {
-  padding: 0 .5rem 0 0;
+  padding: 0 0 0 .75rem;
 }
 
 .resume .cert {
-  padding: 0 1rem 0 0;
+  padding: 0 0 0 1rem;
 }
 
 footer {
   grid-column: 1 / span 3;
-  background-color: #80CE2D;
+  background-color: #80ce2d;
   margin: 5rem 0 0;
   padding: 2rem 0;
 }
