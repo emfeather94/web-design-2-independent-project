@@ -39,16 +39,13 @@ h2 {
   font-size: 2rem;
 }
 
-
 @media only screen and (min-width: 25em) {
-
 }
 
 @media only screen and (min-width: 38em) {
 }
 
 @media only screen and (min-width: 60em) {
-
 
   body {
     margin: 0;
@@ -217,15 +214,13 @@ h2 {
     margin-left: 2.5rem;
     object-fit: cover;
     overflow: hidden;
-    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .4);
   }
 
   .about {
     display: inline-block;
     width: 60%;
   }
-
-
 
   .btn a {
     background-color: #388505;
@@ -277,19 +272,21 @@ h2 {
     padding: 0 1rem 1rem 1.5rem;
   }
 
+  h3 {
+    border-bottom: 2px solid #80ce2d;
+    margin-right: .5rem;
+  }
+
   .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
-  transition: 0.3s;
-  width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .3);
+    transition: .3s;
+    width: 18rem;
   }
 
-  /* On mouse-over, add a deeper shadow */
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .4);
   }
 
-  /* Add some padding inside the card container */
   .container {
     padding: 16px;
   }
@@ -318,4 +315,5 @@ h2 {
     list-style-type: none;
     padding: .5rem;
   }
+
 }
