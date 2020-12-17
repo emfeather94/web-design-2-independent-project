@@ -199,7 +199,6 @@ main {
   grid-row: 2;
 }
 
-
 .btn a {
   background-color: #388505;
   color: white;
@@ -294,10 +293,8 @@ footer p {
   padding: .5rem;
 }
 
-}
-
-
 @media only screen and (min-width: 25em) {
+
   body {
     margin: 0;
     display: grid;
@@ -457,7 +454,6 @@ footer p {
     grid-column: 2;
     grid-row: 2;
   }
-
 
   .btn a {
     background-color: #388505;
@@ -556,6 +552,7 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) {
+
   body {
     margin: 0;
     display: grid;
@@ -716,7 +713,6 @@ footer p {
     grid-row: 2;
   }
 
-
   .btn a {
     background-color: #388505;
     color: white;
@@ -814,6 +810,7 @@ footer p {
 }
 
 @media only screen and (min-width: 60em) {
+
   body {
     margin: 0;
     display: grid;
@@ -1023,6 +1020,7 @@ footer p {
 }
 
 @media only screen and (min-width: 90em) {
+
   body {
     grid-template-columns: 1fr 2.5fr 1fr;
     grid-template-rows: 55rem 1fr 2rem;
@@ -1038,7 +1036,6 @@ footer p {
   .img-banner-s {
     display: none;
   }
-
 
   .img-service-ban {
     grid-column: 1 / -1;
